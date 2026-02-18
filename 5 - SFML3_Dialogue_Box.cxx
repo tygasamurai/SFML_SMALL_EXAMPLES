@@ -45,7 +45,8 @@ public:
 
 private:
     sf::RectangleShape background;
-    sf::Text text;
+    sf::Font font = sf::Font("C:/Windows/Fonts/arial.ttf");
+    sf::Text text = sf::Text(font, "");
     sf::Clock clock;
     std::string fullMessage;
     std::string currentDisplay;
