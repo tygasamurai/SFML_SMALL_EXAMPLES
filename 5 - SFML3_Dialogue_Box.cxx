@@ -56,7 +56,7 @@ private:
 int main() {
     sf::RenderWindow window(sf::VideoMode({800, 600}), "RPG Dialogue Example");
     
-    sf::Font font("arial.ttf"); // Ensure you have a font file in your directory
+    sf::Font font("C:/Windows/Fonts/arial.ttf"); // Ensure you have a font file in your directory
     DialogueBox dialog(font, {780.f, 150.f});
     dialog.setPosition({10.f, 440.f});
     dialog.setMessage("Welcome, traveler! Are you ready for your quest?");
